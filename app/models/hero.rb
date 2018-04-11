@@ -1,21 +1,21 @@
 class Hero
   attr_accessor :name, :power, :bio
 
-  @@all = []
+  Heroes = []
 
   def initialize(params)
     @name = params[:name]
     @power = params[:power]
     @bio = params[:bio]
-    @@all << self
+    Heroes << self
   end
 
   def self.all
-    @@all
+    Heroes
   end
 
   def self.clear
-    @@all
+    Heroes.clear
   end
 
 end
