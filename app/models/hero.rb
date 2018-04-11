@@ -14,8 +14,6 @@ class Hero
     Heroes
   end
 
-  def self.clear
-    Heroes.clear
-  end
+
 
 end
