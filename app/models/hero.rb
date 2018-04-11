@@ -4,9 +4,9 @@ class Hero
   Heroes = []
 
   def initialize(params)
-    @name = params[:name]
-    @power = params[:power]
-    @bio = params[:bio]
+    @name = args[:name]
+    @power = args[:power]
+    @bio = args[:bio]
     Heroes << self
   end
 
