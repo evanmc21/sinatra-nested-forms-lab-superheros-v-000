@@ -9,3 +9,8 @@ class Hero
     @bio = bio
     @@all << self
   end
+
+  def self.all
+    @@all
+  end
+  
